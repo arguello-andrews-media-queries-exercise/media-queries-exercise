@@ -7,7 +7,7 @@ main {
 }
 
 .nav-links {
-    display: flex;
+
     flex-direction: column;
 }
 
@@ -16,6 +16,7 @@ ul {
 }
 
 li {
+    display: flex;
     list-style: none;
     margin: .5em 0;
 }
@@ -26,6 +27,10 @@ li a {
     padding: 2em;
     width: 100%;
     text-align: center;
+}
+
+.alert-info {
+    display: flex;
 }
 
 .alert-info a {
@@ -43,6 +48,7 @@ li a {
 h1 {
     align-self: center;
     padding: 0;
+    font-size: 4em;
 }
 
 .header-img {
