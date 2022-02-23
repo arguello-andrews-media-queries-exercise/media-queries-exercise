@@ -90,9 +90,10 @@ h1 {
     }
 
     li a{
-        padding: 0;
+        padding: 1em;
         background: none;
         margin-left: auto;
+        justify-content: space-between;
     }
 
    main {
@@ -103,5 +104,21 @@ h1 {
    .nav-links{
        display: flex;
        flex-direction: row;
+       align-self: center;
+
+   }
+
+   nav {
+       display: flex;
+       justify-content: space-between;
+   }
+
+   section {
+       width: 50%;
+
+   }
+
+   footer {
+       margin-right: auto;
    }
 }
